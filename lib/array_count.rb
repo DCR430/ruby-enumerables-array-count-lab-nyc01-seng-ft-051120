@@ -4,5 +4,5 @@ end
 
 
 def count_empty_strings(array)
-array.count{ |""| string=="" }
+array.count{ |string| string=="" }
 end
